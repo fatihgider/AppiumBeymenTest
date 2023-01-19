@@ -1,0 +1,54 @@
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'methods.Method.sendEnter' and 'methods.Method.sendEnter'"}
+{"logLevel":"debug","message":"Found Enter'a bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.sepeteEkleKontrol' and 'methods.Method.sepeteEkleKontrol'"}
+{"logLevel":"debug","message":"Found {} elementinin textinin {} olduğunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.swipeScreen' and 'methods.Method.swipeScreen'"}
+{"logLevel":"debug","message":"Found Sayfa {} kaydırılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.click' and 'methods.Method.click'"}
+{"logLevel":"debug","message":"Found {} id'ye tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.sendKeys' and 'methods.Method.sendKeys'"}
+{"logLevel":"debug","message":"Found {} elementine {} yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.waitForSecods' and 'methods.Method.waitForSecods'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.clickXPath' and 'methods.Method.clickXPath'"}
+{"logLevel":"debug","message":"Found {} xpath'e tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps: "}
+{"logLevel":"debug","message":"\tEnter'a bas : public void sendEnter()"}
+{"logLevel":"debug","message":"\t{} elementine {} yaz : public void sendKeys(String id, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForSecods(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementinin textinin {} olduğunu kontrol et : public void sepeteEkleKontrol(String id, String text)"}
+{"logLevel":"debug","message":"\tSayfa {} kaydırılır : public void swipeScreen(Direction dir)"}
+{"logLevel":"debug","message":"\t{} id'ye tıkla : public void click(String id)"}
+{"logLevel":"debug","message":"\t{} xpath'e tıkla : public void clickXPath(String xpath)"}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"info","message":"Listening on port:58704"}
+Oca 10, 2023 5:04:59 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} elementine {} yaz' using 'class methods.Method.sendKeys"}
+{"logLevel":"debug","message":"Executing 'Enter'a bas' using 'class methods.Method.sendEnter"}
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} xpath'e tıkla' using 'class methods.Method.clickXPath"}
+{"logLevel":"debug","message":"Executing '{} xpath'e tıkla' using 'class methods.Method.clickXPath"}
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} xpath'e tıkla' using 'class methods.Method.clickXPath"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class methods.Method.waitForSecods"}
+{"logLevel":"debug","message":"Executing 'Sayfa {} kaydırılır' using 'class methods.Method.swipeScreen"}
+swipeScreen(): dir: 'UP'
+swipeScreen(): TouchAction FAILED
+Swipe action cannot be performed
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ip-10-1-34-122.eu-central-1.compute.internal', ip: 'fe80:0:0:0:865:d4e1:99da:d964%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.mobisoft.beymen.activit..., appPackage: com.mobisoft.beymen, databaseEnabled: false, desired: {appActivity: com.mobisoft.beymen.activit..., appPackage: com.mobisoft.beymen, deviceName: emulator-5554, newCommandTimeout: 3600, platformName: android}, deviceApiLevel: 28, deviceManufacturer: unknown, deviceModel: Android SDK built for arm64, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3600, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 80000019-c499-478b-b0b1-25568817d901
+{"logLevel":"debug","message":"Executing '{} elementinin textinin {} olduğunu kontrol et' using 'class methods.Method.sepeteEkleKontrol"}

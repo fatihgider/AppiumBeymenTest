@@ -1,0 +1,57 @@
+# Navigation allow yapılır
+* "com.android.permissioncontroller:id/permission_allow_one_time_button" id'ye tıkla
+
+# Arama Butonuna Tıkla
+* "com.mobisoft.beymen:id/navigation_search" id'ye tıkla
+
+# Arama Yap
+* "com.mobisoft.beymen:id/search_bar_text" id'ye tıkla
+* "com.mobisoft.beymen:id/search_bar_text" elementine "Pantalon" yaz
+* Enter'a bas
+
+# Filtreleme Yap
+* "com.mobisoft.beymen:id/tv_filter" id'ye tıkla
+* "//*[@class='android.widget.RelativeLayout' and @index='4']" xpath'e tıkla
+* "//*[@text='Jean Pantolon']" xpath'e tıkla
+* "//*[@text='Beden']" xpath'e tıkla
+* "//*[@text='23']" xpath'e tıkla
+* "com.mobisoft.beymen:id/btn_apply_filter" id'ye tıkla
+
+# Ürün Seçilir
+* "com.mobisoft.beymen:id/searchResult_recycler"'den random "com.mobisoft.beymen:id/card_view" seçilir
+
+# Sepet Kontrol
+* "com.mobisoft.beymen:id/addToCartButton" elementinin textinin "SEPETE EKLE" olduğunu kontrol et
+
+# Favorilere Ekle
+* "com.mobisoft.beymen:id/addToFavoriteButton" id'ye tıkla
+* "com.mobisoft.beymen:id/textTitleActivity" elementinin textinin "Kullanıcı Girişi" olduğunu kontrol et
+* Giriş yapılır
+* "//*[@text='23']" xpath'e tıkla
+
+# Sepete ekle
+* "com.mobisoft.beymen:id/addToCartButton" id'ye tıkla
+* "android:id/button1" id'ye tıkla
+
+# Favorilerden kaldır
+* "//android.widget.LinearLayout[@content-desc='Favorilerim']" xpath'e tıkla
+* "com.mobisoft.beymen:id/ivDelete" id'ye tıkla
+* "//android.widget.LinearLayout[@content-desc='Sepetim']" xpath'e tıkla
+
+#Sepetten ürün kaldır
+* "com.mobisoft.beymen:id/tvDeleteBasketItem" id'ye tıkla
+* "com.mobisoft.beymen:id/ivToolbarBack" id'ye tıkla
+* "com.mobisoft.beymen:id/ivToolbarBack" id'ye tıkla
+
+#  Çıkış yap
+* "com.mobisoft.beymen:id/navigation_profile" id'ye tıkla
+* "com.mobisoft.beymen:id/bt_logout" id'ye tıkla
+* "android:id/button1" id'ye tıkla
+* "1" saniye bekle
+
+# Giriş yapılır
+* "com.mobisoft.beymen:id/emailText" id'ye tıkla
+* "com.mobisoft.beymen:id/emailText" elementine "fatih.gider@test.com" yaz
+* "com.mobisoft.beymen:id/passwordText" id'ye tıkla
+* "com.mobisoft.beymen:id/passwordText" elementine "admin1234" yaz
+* "com.mobisoft.beymen:id/loginButton" id'ye tıkla

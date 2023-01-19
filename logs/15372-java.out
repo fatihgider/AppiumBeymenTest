@@ -1,0 +1,46 @@
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'methods.Method.sendEnter' and 'methods.Method.sendEnter'"}
+{"logLevel":"debug","message":"Found Enter'a bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.SwipeUp' and 'methods.Method.SwipeUp'"}
+{"logLevel":"debug","message":"Found Sayfa aşağıya kaydırılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.sepeteEkleKontrol' and 'methods.Method.sepeteEkleKontrol'"}
+{"logLevel":"debug","message":"Found {} elementinin textinin {} olduğunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.click' and 'methods.Method.click'"}
+{"logLevel":"debug","message":"Found {} id'ye tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.sendKeys' and 'methods.Method.sendKeys'"}
+{"logLevel":"debug","message":"Found {} elementine {} yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.waitForSecods' and 'methods.Method.waitForSecods'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'methods.Method.clickXPath' and 'methods.Method.clickXPath'"}
+{"logLevel":"debug","message":"Found {} xpath'e tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps: "}
+{"logLevel":"debug","message":"\tEnter'a bas : public void sendEnter()"}
+{"logLevel":"debug","message":"\t{} elementine {} yaz : public void sendKeys(String id, String text)"}
+{"logLevel":"debug","message":"\tSayfa aşağıya kaydırılır : public void SwipeUp()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForSecods(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementinin textinin {} olduğunu kontrol et : public void sepeteEkleKontrol(String id, String text)"}
+{"logLevel":"debug","message":"\t{} id'ye tıkla : public void click(String id)"}
+{"logLevel":"debug","message":"\t{} xpath'e tıkla : public void clickXPath(String xpath)"}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"info","message":"Listening on port:54806"}
+Oca 10, 2023 4:33:14 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} elementine {} yaz' using 'class methods.Method.sendKeys"}
+{"logLevel":"debug","message":"Executing 'Enter'a bas' using 'class methods.Method.sendEnter"}
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} xpath'e tıkla' using 'class methods.Method.clickXPath"}
+{"logLevel":"debug","message":"Executing '{} xpath'e tıkla' using 'class methods.Method.clickXPath"}
+{"logLevel":"debug","message":"Executing '{} id'ye tıkla' using 'class methods.Method.click"}
+{"logLevel":"debug","message":"Executing '{} xpath'e tıkla' using 'class methods.Method.clickXPath"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class methods.Method.waitForSecods"}
+{"logLevel":"debug","message":"Executing 'Sayfa aşağıya kaydırılır' using 'class methods.Method.SwipeUp"}
+{"logLevel":"debug","message":"Executing '{} elementinin textinin {} olduğunu kontrol et' using 'class methods.Method.sepeteEkleKontrol"}
